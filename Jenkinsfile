@@ -1,6 +1,6 @@
 node('MAVEN_JDK8') {
     stage('version control') {
-        git url: 'https://github.com/sudareddy/game-of-life.git',
+        git url: 'https://github.com/khajadevopsmarch23/game-of-life.git',
             branch: 'scripted'
     }
 }
